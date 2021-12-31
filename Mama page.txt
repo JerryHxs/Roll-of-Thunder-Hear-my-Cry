@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mama Page</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css"><!-- Latest compiled and minified CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"><!-- Optional theme -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar">
+		<ul>
+			<li><a href="home.html"><img class="navimage" src="Images/logan_logo.png" /></a></li>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="#">Character Pages</a>
+				<ul>
+					<li><a href="Big-Ma.html">Caroline Logan</a></li>
+					<li><a href="mama_page.html">Mary Logan</a></li>
+					<li class="cmtaylor"><a href="home.html#minfo">Mildred D. Taylor</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Messages</a></li>
+			<li><a href="#">Contact</a></li>	
+		</ul>
+	</div>
+	<div class="wrapper">
+		<div class="banner">
+			<img class="banner-image" src="images/mama_banner.png">
+			<div class="stext">
+				<h2>Mama</h2>
+			</div>
+		</div>
+		<section>
+			<article>
+				<h3>The Profile</h3><img class="sectionimage" src="Images/Mama_afro.jpg">
+				<p>I'm Mary Logan, teacher, mother, and wife. I'm also known as "Mama" by my children. My family is African American and we love our race. I'm married to DAvid Logan and together we have 4 beuatiful children, Stacey, Cassie, Clayton, and Christopher-John. We live in the segregated South, but unlike other African American families, we have our own land that we make a living out of. We love each other so much. My interests are teaching at Great Faith and Boycotting the Wallaces. I'm also well educated because I'm a teacher</p>
+			</article>
+		</section>
+		<section>
+			<div class="section2">
+			<h3>Family</h3><img class="sectionimage" src="Images/Mama.gif">
+			<p>My family consist of my step-mom, Big Ma, my husband, David, my hothead brother-in-law, Hammer, and my 4 children I had with my husband. Lately the defense that my husband brought home from work was a huge man who also faces the racial segregation, named Mr. Morrison. Here's a picture of my family.</p><img class="loganfam" src="Images/logan-family.jpg"></div>
+		</section>
+		<div class="characterinfo">
+			<img src="Images/Mama_info.jpg">
+		</div>
+	<footer class="footer2">
+		<center>
+			<table width="980">
+				<tbody>
+					<tr>
+						<td>&nbsp;</td>
+						<td style="text-align: center">
+							<font style="color: #e1e5ed">About Us</font><br>
+							<div style="width:480px; text-align:center; color:#fff">
+								We strive to making good grades in Mrs. K Johnson's class and trying to finish our work as a team and not just making 1 person do all the work. No, we're an elite diverse task force that strives and acheives more than what's expected. We are the overdoers.
+							</div>
+						</td>
+						<td width="27%">	   <font style="color: rgb(225, 229, 237); text-decoration: underline;">Useful Links</font>
+
+	     
+	       		<br><a style="color: rgb(255, 255, 255);" href="home.html">Home</a>
+
+	      
+	       		<br><a style="color: rgb(255, 255, 255);" href="#">About</a>
+
+	      
+	       		<br><a style="color: rgb(255, 255, 255);" href="#">Likes and Messages</a>
+	      
+	       		<br><a style="color: rgb(255, 255, 255);" href="#">Contact</a>
+		</td>
+						<td width="18%">
+							<div id="foot">
+								<a href="https://www.facebook.com/" target="New Window"><img height="45" id="face" src="Images/facebook_logo.jpg" width="45"></a> <a href="https://www.whatsapp.com/" target="New Window"><img height="45" id="whats" src="Images/WhatsApp_logo.jpg" width="45"></a> <a href="https://www.instagram.com/?hl=en" target="New Window"><img height="45" id="insta" src="Images/Instagram_logo.jpg" width="45"></a>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</center>
+	</footer>
+	</div><img class="logo" src="Images/Mama.gif"> <img class="posts" src="Images/Posts-For-Mama.jpg">
+	<div class="sidebar">
+		<nav>
+			<ul>
+				<li style="list-style: none"><img class="logo1" src="Images/Mama_afro.jpg"><br></li>
+				<li>
+					<a href="home.html">Home</a>
+				</li>
+				<li style="list-style: none"><br></li>
+				<li class="aboutme">About Me</li>
+				<li style="list-style: none"><br></li>
+				<li>
+					<a href="#">Messages</a>
+				</li>
+				<li style="list-style: none"><br></li>
+				<li>
+					<a href="#">Likes</a>
+				</li>
+				<li style="list-style: none"><br></li>
+			</ul>
+		</nav>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+	</script> <!-- Latest compiled and minified JavaScript -->
+	 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+
+	<script>
+	$(function() {
+	$(".cmtaylor").click(function() {
+		$(".minfo").show();
+		});
+	});
+	</script>  
+</body>
+</html>
